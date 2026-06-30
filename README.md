@@ -1,6 +1,6 @@
 # templates
 
-個人開発で使うテンプレート集です。要件定義書などのドキュメント、設定用の YAML ファイル、GitHub の PR テンプレートなど、開発のたびに使い回すひな形をまとめています。
+個人開発で使うテンプレート集です。要件定義書などのドキュメント、GitHub の PR テンプレート、GitHub Actions の CI 設定など、開発のたびに使い回すひな形をまとめています。
 
 ## テンプレート一覧
 
@@ -21,4 +21,4 @@
 
 | テンプレート                                            | 概要                                                                                             |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| [github-actions-ci-template.yml](ci/github-actions-ci-template.yml)       | GitHub Actions 用の汎用 CI ワークフロー。lint → test の構成で、言語に合わせて書き換えて使うひな形。 |
+| [github-actions-ci-template.yml](ci/github-actions-ci-template.yml)       | Node.js (npm) プロジェクト向けの GitHub Actions CI ワークフロー。push / PR をトリガーに lint → test を実行する構成。 |
